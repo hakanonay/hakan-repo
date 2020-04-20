@@ -4,20 +4,19 @@ var dom= document.querySelector('p').innerText
 
 function st(){
     var name= document.querySelector('.nameInput').value;
-    alert(name);
+
     var email= document.querySelector('.emailInput').value;
-    alert(email);
+    
     var idnummer= document.querySelector('.idInput').value;
-    alert(idnummer);
+    
     var adresse= document.querySelector('.adresseInput').value;
-    alert(adresse);
+    
     var ort= document.querySelector('.ortInput').value;
-    alert(ort);
     var land= document.querySelector('.landInput').value;
-    alert(land);
+
     var iban= document.querySelector('.ibanInput').value;
-    alert(iban);
-    var all='name:'+ name + "email" + email + "idnummer" + idnummer + "adresse" + adresse + "ort" + ort + "land" + land + "iban" + iban 
+
+    var all='name:'+ name + "email" + email + "idnummer" + idnummer + "adresse" + adresse + "ort" + ort + "land" + land + "iban" + iban; 
     alert(all)
     console.log("Submit Tiklandi")
 }
