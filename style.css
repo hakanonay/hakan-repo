@@ -23,6 +23,9 @@ h1{
     color: lightcoral;
     font-style: initial;
     margin-top: 10px;
+    text text-decoration: underline;
+    font-style: italic;
+    font-family: 'Special Elite', cursive;
 }
 h2{
     font-size: 35px;
@@ -51,8 +54,18 @@ h6{
     font-style: italic;
 }
 p{
-    font-size: 40px;
+    font-size: 14px;
     color: rgb(113, 132, 156);
     font-style: inherit;
     -ms-flex-direction: initial;
+}
+#signIn{
+    width: 700px;
+    height: 700px;
+    margin: 10%;
+    background-color: khaki;
+}
+input{
+    margin: 10%;
+    height: 30px;
 }
